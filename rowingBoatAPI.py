@@ -16,7 +16,7 @@ class RowingBoat:
 
     def remove_passenger(self):
         self.current_passengers = max(0, self.current_passengers)
-        return f"Пассажир удален. Текущая нагрузка: {self.current_passengers} кг."
+        return f"Пассажир удален. Текущая нагрузка: {self.current_passengers}."
 
     def row(self, direction: str):
         if not self.on_water:
